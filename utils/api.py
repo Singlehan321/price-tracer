@@ -1,5 +1,5 @@
-def fetch_prices():
-    return {
-        "bitcoin": 100000,
-        "ethereum": 3000
-    }
+from utils.api import fetch_prices
+
+prices = fetch_prices()
+
+print(prices)
